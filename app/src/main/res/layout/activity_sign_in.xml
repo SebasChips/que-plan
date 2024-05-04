@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/queplancircle" />
+
+        <EditText
+            android:id="@+id/nameSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/cardview_light_background"
+            android:textColorHint="@color/design_default_color_on_primary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/lastnameSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Apellido"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/cardview_light_background"
+            android:textColorHint="@color/design_default_color_on_primary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/emailSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/cardview_light_background"
+            android:textColorHint="@color/design_default_color_on_primary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/passwordSigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/cardview_light_background"
+            android:textColorHint="@color/design_default_color_on_primary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/signinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:text="Registrarse"
+            android:textColor="#4059A1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tienes cuenta? ¡Inicia sesión!"
+            android:textColor="#4059A1"
+            android:textSize="18sp"
+            android:id="@+id/loginActivity"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
